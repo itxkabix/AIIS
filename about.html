@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIIS</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Al-Ameen Institute Of Information Sciences</h1>     
+            <p>Al-Ameen Institute Of Information Sciences, Bangalore also known as AIIS BENGALURU is a private college affiliated to BCU BENGALURU situated in Bengaluru, Karnataka. It was established in the year 1996 to provide higher education to build a career in the field of Computer Applications.Al-Ameen Institute Of Information Sciences is approved by the reputed AICTE, accrediated by NAAC.<br><br><br>Mumtaz ahmed Khan is the founder of Al-Ameen Educational Society. At the age of 31, in 1966 Khan founded al-Ameen movement. Number of social workers supported him gto start and establish around 20 branches of Al-ameen Educational Society and 200 Institutions throughout India. Mumtaz Ahmed Khan (6th september 1935-28th may 2021) was an humanitariun, educationalist and social reformer. Khan earned a MBBS degree from Madras University, chennai and became a general practitioner. </p>
+            <a href="https://youtu.be/00zNZ1Vf3_g?si=vAOoVkFg-fOKTqX_" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/cam3.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Al-Ameen Institute Of Information Sciences<br>Hosur Road, Opp Lalbagh Main Gate, Bangalore-560027.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/share/ND7dymJ5MY3uvbSw/?mibextid=qi20mg"><i class="fa fa-facebook"></i></a>
+            <a href="https://wwww.instagram.com/alameen_degree_college?igsh=YXMxYzA2MXI2M3Bt"><i class="fa fa-instagram"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Fathima Taranum</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
